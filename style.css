@@ -1,0 +1,91 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+main h1 {
+    padding: 5px;
+    font-size: 2.5em;
+}
+
+#valor {
+    padding: 10px;
+    width: 50vw;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.713);
+}
+
+#callMisturar,
+#callOrdenar {
+    display: inline;
+    background-color: rgb(19, 143, 215);
+    color: white;
+    width: 75px;
+    height: 40px;
+    border-radius: 7px;
+    border: none;
+}
+
+#callOrdenar:hover {
+    background-color: rgba(19, 143, 215, 0.787);
+    width: 73px;
+    height: 37px;
+    border: 1px solid rgba(0, 0, 0, 0.771);
+    transition: 0.5s;
+}
+
+#callMisturar:hover {
+    background-color: rgba(19, 143, 215, 0.787);
+    width: 73px;
+    height: 37px;
+    border: 1px solid rgba(0, 0, 0, 0.771);
+    transition: 0.5s;
+}
+
+
+
+#btnAdicionar {
+    background-color: rgb(19, 143, 215);
+    color: white;
+    width: 75px;
+    height: 40px;
+    border-radius: 7px;
+    border: none;
+}
+
+#btnAdicionar:hover {
+    background-color: rgba(19, 143, 215, 0.787);
+    width: 73px;
+    height: 37px;
+    border: 1px solid rgba(0, 0, 0, 0.771);
+    transition: 0.5s;
+}
+
+#opcoes {
+    width: 50vw;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.713);
+    margin: 8px;
+
+}
+
+
+ul > li{
+    margin: 5px;
+    padding: 5px;
+    margin-left: 60px;
+
+}
+
+
+main input,
+button {
+    display: block;
+    margin: 10px;
+}
+
+
